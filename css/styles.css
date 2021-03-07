@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: "Shippori Mincho B1", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 150vh;
+}
+.link {
+  color: green;
+  transition: color 0.7s;
+}
+.header {
+  padding: 30px;
+  border-bottom: 2px solid blue;
+  text-align: center;
+  flex: 0;
+}
+.header-link {
+  margin: 0 16px;
+}
+.main {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  flex-grow: 1;
+  padding-top: 50px;
+}
+.title {
+  background-color: cornflowerblue;
+  color: darkmagenta;
+  text-align: center;
+  font-family: Colatemta, serif;
+}
+.img-alex {
+  padding: 25px;
+  text-align: center;
+}
+.img {
+  border: 1px solid yellow;
+}
+.aside {
+  width: 350;
+  flex: 0;
+}
+.main-section {
+  flex-grow: 1;
+  padding-left: 60px;
+}
+.subtitle {
+  color: chartreuse;
+  margin-top: 34px;
+  font-family: Colatemta, serif;
+  text-align: center;
+}
+.footer {
+  border-top: 2px solid rebeccapurple;
+  padding: 25px;
+  text-align: center;
+  color: darkblue;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+.contact-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+.icons {
+  width: 50px;
+  height: 50px;
+}
